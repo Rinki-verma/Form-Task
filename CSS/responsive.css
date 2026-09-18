@@ -275,6 +275,18 @@
   }
 
   .table_Section {
-    display: none;
+    width: 100%;
+    margin: 40px 0px;
+    margin-bottom: 8px;
+    overflow: hidden;
+  }
+
+  table {
+    width: 100%;
+    border: 1px solid rgb(172, 170, 170);
+  }
+
+  table th {
+    color: rgb(68, 68, 68);
   }
 }
