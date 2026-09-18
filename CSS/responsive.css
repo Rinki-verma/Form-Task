@@ -158,11 +158,14 @@
     align-items: center;
     box-shadow: 0px 0px 6px 0px gray;
     border-radius: 20px;
+    overflow: hidden;
   }
 
   .form_section {
     width: 100%; /* FIXED: 700px se 100% kiya */
     height: 100%;
+    overflow: hidden;
+
   }
 
   form {
@@ -172,6 +175,8 @@
     box-sizing: border-box;
     box-shadow: 0px 0px 2px 0px rgb(175, 175, 175);
     border-radius: 10px;
+    overflow: hidden;
+
   }
 
   .img_section {
@@ -229,11 +234,15 @@
     box-shadow: 0px 0px 6px 0px gray;
     border-radius: 20px;
     margin: 3px;
+    overflow: hidden;
+
   }
 
   .form_section {
     width: 100% !important; /* FIXED: 300px ki jagah 100% kiya */
     height: 100%;
+    overflow: hidden;
+
   }
 
   form {
@@ -243,6 +252,9 @@
     box-sizing: border-box;
     box-shadow: 0px 0px 2px 0px rgb(175, 175, 175);
     border-radius: 10px;
+    overflow: hidden;
+
+
   }
 
   .img_section {
@@ -251,6 +263,8 @@
     border-radius: 15px;
     margin-top: 50px;
     box-sizing: border-box;
+    overflow: hidden;
+
   }
 
   .img_section img {
