@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/style.css" />
+  </head>
+  <body>
+    <!-- Start a form Section  -->
+    <div class="outer">
+      <h1>User Management System</h1>
+      <div class="container">
+        <div class="form_section">
+          <form action="" id="form">
+            <div class="main nameError">
+              <label for="name_Section">Name :</label>
+              <input
+                class="inputs"
+                type="text"
+                id="name_Section"
+                pattern="[a-zA-Z ]{2,15}"
+                placeholder="Enter your name"
+                name="name"
+                value=""
+              />
+              <p></p>
+            </div>
+            <div class="main">
+              <label for="email_section">Email :</label>
+              <input
+                class="inputs"
+                type="email"
+                id="email_section"
+                name="email"
+                placeholder="Enter your email"
+                value=""
+              />
+              <p class="emailError"></p>
+            </div>
+            <div class="main">
+              <label for="mobile_section">Phone :</label>
+              <input
+                class="inputs"
+                type="tel"
+                placeholder="Enter your mobile number"
+                name="mobile"
+                id="mobile_section"
+              />
+              <p class="phoneError"></p>
+            </div>
+            <div class="main">
+              <label for="country_section">Country :</label>
+              <select
+                id="country_section"
+                name="country_sections"
+                class="inputs"
+              >
+                <option value="" class="changOpt">Select Country</option>
+                <option value="India">India</option>
+                <option value="Canada">Canada</option>
+                <option value="Australia">Australia</option>
+              </select>
+              <p class="countryError"></p>
+            </div>
+
+            <div class="main">
+              <label for="state_section">Select State :</label>
+              <select id="state_section" name="state_sections" class="inputs">
+                <option value="" class="changOpt">Select State</option>
+              </select>
+              <p class="stateError"></p>
+            </div>
+
+            <button type="submit" id="changeBtn">Submit</button>
+          </form>
+        </div>
+
+        <div class="img_section">
+          <img src="./images/image.png" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <!-- End a form Section  -->
+
+    <!-- Start a Table Section   -->
+    <div class="table_Section">
+      <table
+        border="1"
+        width="100%"
+        cellspacing="0"
+        cellpadding="12"
+        align="center"
+      >
+        <thead>
+          <tr class="headingSection">
+            <th>Id</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Mobile</th>
+            <th>Country</th>
+            <th>State</th>
+            <th>Edit</th>
+            <th>Delete</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <!-- End a Table Section   -->
+
+    <script src="./JS/logic.js"></script>
+  </body>
+</html>
