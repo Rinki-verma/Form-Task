@@ -35,10 +35,9 @@ form {
 }
 
 .img_section {
-  width: 500px  !important;
+  width: 500px !important;
   height: 350px !important;
   border-radius: 15px;
-
 }
 
 .img_section img {
