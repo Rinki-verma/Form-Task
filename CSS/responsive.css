@@ -338,10 +338,27 @@
     filter: blur(1px);
   }
 
-  .table_Section {
+
+  /* .table_Section {
     display: none !important;
   }
   table {
     display: none !important;
+  } */
+
+
+  .table_Section {
+    width: 1000px !important;
+    margin: 40px 0px;
+    margin-bottom: 8px;
+  }
+
+  table {
+    width: 100%;
+    border: 1px solid rgb(172, 170, 170);
+  }
+
+  table th {
+    color: rgb(68, 68, 68);
   }
 }
