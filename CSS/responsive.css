@@ -381,6 +381,9 @@
     color: rgb(68, 68, 68);
   } */
   .table_Section{
-    display: none;
+    display: none !important;
   } 
+  table{
+    display: none !important;
+  }
 }
