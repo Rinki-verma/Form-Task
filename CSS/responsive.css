@@ -291,4 +291,7 @@
   table th {
     color: rgb(68, 68, 68);
   }
+  .table_Section{
+    display: none;
+  }
 }
